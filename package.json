@@ -1,0 +1,22 @@
+{
+  "name": "energi-dapps-dev-challenge-contracts",
+  "version": "1.0.0",
+  "description": "Energi dApps development challenge smart contracts",
+  "main": "truffle-config.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "ganache": "ganache-cli",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
+  "author": "Maxime Suard",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "chai": "^4.3.6",
+    "truffle": "^5.5.19",
+    "truffle-assertions": "^0.9.2"
+  },
+  "repository": "https://oauth2:glpat-BBx687AwSyUxSLQEJVkJ@gitlab.com/Srigowri/contracts.git"
+}
